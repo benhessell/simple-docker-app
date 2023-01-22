@@ -1,0 +1,70 @@
+Arguments: 
+  /Users/c0008779/.nvm/versions/node/v10.24.1/bin/node /Users/c0008779/.nvm/versions/node/v10.24.1/bin/yarn start
+
+PATH: 
+  /Users/c0008779/.nvm/versions/node/v10.24.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/c0008779/.nvm/versions/node/v10.24.1/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  10.24.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: write EIO
+      at afterWriteDispatched (internal/stream_base_commons.js:78:25)
+      at writeGeneric (internal/stream_base_commons.js:73:3)
+      at WriteStream.Socket._writeGeneric (net.js:714:5)
+      at WriteStream.Socket._write (net.js:726:8)
+      at doWrite (_stream_writable.js:415:12)
+      at writeOrBuffer (_stream_writable.js:399:5)
+      at WriteStream.Writable.write (_stream_writable.js:299:11)
+      at Object.clearLine (readline.js:1176:12)
+      at clearLine (/Users/c0008779/.nvm/versions/node/v10.24.1/lib/node_modules/yarn/lib/cli.js:49658:12)
+      at ConsoleReporter._log (/Users/c0008779/.nvm/versions/node/v10.24.1/lib/node_modules/yarn/lib/cli.js:96329:43)
+
+npm manifest: 
+  {
+    "name": "frontend",
+    "version": "0.1.0",
+    "private": true,
+    "proxy": "http://app-network:80",
+    "dependencies": {
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.5.0",
+      "@testing-library/user-event": "^7.2.1",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "react-scripts": "3.4.3"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
